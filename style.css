@@ -1,0 +1,66 @@
+:root{
+    --primary-color: #06b6d4;
+    --primary-dark: #164e63;
+    --secondary-color: #e2e8f0;
+}
+
+*{
+    margin: 0%;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+}
+
+#heading{
+    padding: 3rem 1rem 1rem 1rem;
+    text-align: center;
+    color: var(--primary-color);
+}
+
+label{
+    text-align: center;
+    margin: 0.5rem;
+    font-weight: bold;
+}
+
+input{
+    display: block;
+    margin: auto;
+    max-width: 300px;
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    border: 1px solid black;
+}
+
+#checkButton{
+    margin: 1rem auto;
+    font-size: large;
+    padding: 0.5rem 2rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    background-color: var(--secondary-color);
+}
+
+#output{
+    padding: 1rem;
+    text-align: center;
+    color: var(--primary-dark);
+}
+
+footer{
+    background-color: var(--primary-color);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 2.5rem 0;
+}
