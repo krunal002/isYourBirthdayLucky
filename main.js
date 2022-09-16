@@ -13,6 +13,9 @@ function checkBirthdayIsLucky(){
         if(sum === 0){
             output.innerHTML = "Give me your Birthday 😉";
         }
+        else if(Number(luckyNumber.value) < 0){
+            output.innerHTML = "Number should be greater than Zero";
+        }
         else if(Number(luckyNumber.value) === 0){
             output.innerHTML = "What's your Lucky number";
         }
